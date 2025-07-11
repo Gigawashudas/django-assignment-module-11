@@ -7,7 +7,6 @@
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
@@ -15,6 +14,9 @@
 header {
   background-color: #ffe4aa;
   width: 100%;
+  background-image: url(./images/developer.png), url(./images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 }
 
 nav {
@@ -53,12 +55,12 @@ nav a {
   font-size: 20px;
 }
 
-nav h2{
+nav h2 {
   font-size: 45px;
   font-weight: 700;
 }
 
-nav h2 span{
+nav h2 span {
   color: #ff0000;
 }
 
@@ -66,7 +68,7 @@ nav h2 span{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 230px;
+  margin: 0 35px 0 230px;
 }
 
 .hero-content {
@@ -94,7 +96,7 @@ nav h2 span{
   margin-bottom: 30px;
 }
 
-.contact-btn{
+.contact-btn {
   font-family: "Open Sans", sans-serif;
   background-color: #ffffff;
   color: #000000;
@@ -108,4 +110,47 @@ nav h2 span{
 .hero-btn {
   display: flex;
   gap: 20px;
+}
+
+.about {
+  padding: 150px 230px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.about-title{
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 80%;
+}
+
+.my-info{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value{
+  font-weight: 600;
+}
+
+.about-description{
+  text-align: center;
 }
