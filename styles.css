@@ -13,10 +13,12 @@
 }
 
 body {
-  background-color: #ffe4aa;
+
 }
 
 header {
+  background-color: #ffe4aa;
+  width: 100%;
 }
 
 nav {
@@ -25,6 +27,7 @@ nav {
   align-items: center;
   padding: 20px;
   margin: 0 230px;
+  padding-top: 50px;
 }
 
 .navigation {
@@ -43,12 +46,57 @@ nav a {
   font-weight: 600;
 }
 
-nav button {
+.btn-primary {
   font-family: "Open Sans", sans-serif;
   background-color: #000000;
   color: #ffffff;
   padding: 18px 35px;
   border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+nav h2{
+  font-size: 45px;
+  font-weight: 700;
+}
+
+nav h2 span{
+  color: #ff0000;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 230px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 585px;
+}
+
+.hero-greeting {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.hero-title {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.contact-btn{
+  font-family: "Open Sans", sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 18px 35px;
+  border: 1px solid #000000;
   border-radius: 5px;
   cursor: pointer;
   font-size: 20px;
