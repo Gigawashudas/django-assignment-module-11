@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+  height: 0px;
+}
+
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -381,9 +386,6 @@ button i, a i{
   padding: 5px 10px;
 }
 
-a{
-  text-decoration: none;
-  height: 0px;
-}
+
 
 
