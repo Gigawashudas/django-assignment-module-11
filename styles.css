@@ -102,6 +102,9 @@ nav h2 span {
 }
 
 .contact-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "Open Sans", sans-serif;
   background-color: #ffffff;
   color: #000000;
@@ -109,6 +112,8 @@ nav h2 span {
   border-radius: 5px;
   cursor: pointer;
   font-size: 20px;
+  height: 75px;
+  border: 1px solid #000000;
   transition: font-size 0.5s ease, background-color 0.5s ease, color 0.5s ease;
 }
 
@@ -277,16 +282,6 @@ nav h2 span {
   margin-left: 10px;
 }
 
-.project-btn button {
-  background-color: #ffffff;
-  color: #000000;
-  padding: 5px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  border: none;
-}
-
 .project-title {
   text-align: left;
   width: 350px;
@@ -366,7 +361,7 @@ form textarea {
   border-radius: 5px;
 }
 
-button i{
+button i, a i{
   margin-right: 10px;
 }
 
@@ -377,3 +372,18 @@ button i{
 .project-btn i{
   margin-right: 5px
 }
+
+.project-btn a {
+  color: #000000;
+  background-color: #ffffff;
+  height: 32px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+a{
+  text-decoration: none;
+  height: 0px;
+}
+
+
