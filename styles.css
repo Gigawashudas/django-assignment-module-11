@@ -390,6 +390,6 @@ button i, a i{
   padding: 5px 10px;
 }
 
-
-
-
+.skills .card{
+  box-shadow: #b5b5b5 0px 0px 10px 1px;
+}
