@@ -267,6 +267,7 @@ nav h2 span {
   border-radius: 10px;
   margin: 0 10px;
   width: 400px;
+  height: 300px;
   box-shadow: #878787 0px 0px 10px 1px;
   display: flex;
   flex-direction: column;
@@ -325,6 +326,10 @@ footer {
 .social-icons a i {
   font-size: 20px;
   margin-top: 50px;
+}
+
+.social-icons a {
+  color: black;
 }
 
 .social-icons {
