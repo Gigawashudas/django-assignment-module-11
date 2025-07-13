@@ -24,6 +24,10 @@ header {
   background-position: top left, bottom right;
 }
 
+main{
+  background-color: lightgray;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -138,7 +142,6 @@ nav h2 span {
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  background-color: antiquewhite;
 }
 
 .about-title {
@@ -147,7 +150,6 @@ nav h2 span {
   margin-bottom: 20px;
   position: sticky;
   top: 0;
-  background-color: antiquewhite;
   width: 100%;
   text-align: center;
 }
@@ -188,7 +190,6 @@ nav h2 span {
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  background-color: #4e360d;
   color: #ffffff;
 }
 
@@ -198,7 +199,6 @@ nav h2 span {
   margin-bottom: 20px;
   position: sticky;
   top: 0;
-  background-color: #4e360d;
   width: 1400px;
   text-align: center;
 }
@@ -237,7 +237,6 @@ nav h2 span {
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  background-color: #6b6a67;
   color: #ffffff;
 }
 
@@ -247,7 +246,6 @@ nav h2 span {
   margin-bottom: 20px;
   position: sticky;
   top: 0;
-  background-color: #6b6a67;
   width: 1400px;
   text-align: center;
 }
