@@ -25,7 +25,7 @@ header {
 }
 
 main{
-  background-color: lightgray;
+  background-color: rgb(255, 243, 230);
 }
 
 nav {
@@ -152,6 +152,7 @@ nav h2 span {
   top: 0;
   width: 100%;
   text-align: center;
+  background-color: rgb(255, 243, 230);
 }
 
 .about-content {
@@ -190,7 +191,6 @@ nav h2 span {
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  color: #ffffff;
 }
 
 .skill-title {
@@ -201,6 +201,7 @@ nav h2 span {
   top: 0;
   width: 1400px;
   text-align: center;
+  background-color: rgb(255, 243, 230);
 }
 
 .skill-description {
@@ -237,7 +238,6 @@ nav h2 span {
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  color: #ffffff;
 }
 
 .projects-title {
@@ -248,6 +248,7 @@ nav h2 span {
   top: 0;
   width: 1400px;
   text-align: center;
+  background-color: rgb(255, 243, 230);
 }
 
 .projects-description {
