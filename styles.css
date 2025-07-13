@@ -393,3 +393,9 @@ button i, a i{
 .skills .card{
   box-shadow: #b5b5b5 0px 0px 10px 1px;
 }
+
+.copyright {
+  position: relative;
+  top: 200px;
+  width: 100%;
+}
