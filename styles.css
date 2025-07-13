@@ -17,7 +17,7 @@ a{
 }
 
 header {
-  background-color: #ffe4aa;
+  background-color: #fff2e0;
   width: 100%;
   background-image: url(./images/developer.png), url(./images/header_bg.png);
   background-repeat: no-repeat;
@@ -25,14 +25,13 @@ header {
 }
 
 main{
-  background-color: rgb(255, 243, 230);
+  background-color: #c0c9ee;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
   margin: 0 230px;
   padding-top: 50px;
 }
@@ -137,7 +136,7 @@ nav h2 span {
 }
 
 .about {
-  padding: 150px 230px;
+  padding: 150px 230px 0 230px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -152,7 +151,7 @@ nav h2 span {
   top: 0;
   width: 100%;
   text-align: center;
-  background-color: rgb(255, 243, 230);
+  background-color: #c0c9ee;
 }
 
 .about-content {
@@ -201,7 +200,7 @@ nav h2 span {
   top: 0;
   width: 1400px;
   text-align: center;
-  background-color: rgb(255, 243, 230);
+  background-color: #c0c9ee;
 }
 
 .skill-description {
@@ -215,7 +214,7 @@ nav h2 span {
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: #898ac4;
   color: #000000;
   padding: 20px;
   border-radius: 10px;
@@ -233,7 +232,7 @@ nav h2 span {
 }
 
 .projects {
-  padding: 150px 230px;
+  padding: 0 230px 150px 230px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -248,7 +247,7 @@ nav h2 span {
   top: 0;
   width: 1400px;
   text-align: center;
-  background-color: rgb(255, 243, 230);
+  background-color: #c0c9ee;
 }
 
 .projects-description {
@@ -310,6 +309,7 @@ footer {
   padding: 150px 230px;
   display: flex;
   justify-content: space-between;
+  height: 100vh;
 }
 
 .connect {
